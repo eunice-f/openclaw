@@ -203,37 +203,37 @@ pre{
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe src="https://youtu.be/yExUtIoSRzw" allow="autoplay"></iframe>
+      <iframe src="https://www.youtube.com/embed/yExUtIoSRzw" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">A1 success</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/watch?v=cD3NlRmJ6lw" allow="autoplay"></iframe>
+      <iframe src="https://www.youtube.com/embed/cD3NlRmJ6lw" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">A2 success</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
+      <iframe src="https://www.youtube.com/embed/rsJYUgpaC-I" allow="autoplay"></iframe>
     </div>
-    <div class="yt-label">A3</div>
+    <div class="yt-label">A3 success</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
+      <iframe src="https://www.youtube.com/embed/hTsSUf5eFuc" allow="autoplay"></iframe>
     </div>
-    <div class="yt-label">A4</div>
+    <div class="yt-label">A4 success</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
+      <iframe src="https://www.youtube.com/embed/X9mF51GZDHo" allow="autoplay"></iframe>
     </div>
-    <div class="yt-label">A5</div>
+    <div class="yt-label">A5 success</div>
   </div>
 
   <div class="yt-card">
