@@ -203,16 +203,16 @@ pre{
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
+      <iframe src="https://youtu.be/yExUtIoSRzw" allow="autoplay"></iframe>
     </div>
-    <div class="yt-label">A1</div>
+    <div class="yt-label">A1 success</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
+      <iframe src="https://www.youtube.com/watch?v=cD3NlRmJ6lw" allow="autoplay"></iframe>
     </div>
-    <div class="yt-label">A2</div>
+    <div class="yt-label">A2 success</div>
   </div>
 
   <div class="yt-card">
