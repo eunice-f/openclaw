@@ -199,54 +199,73 @@ pre{
 
 <!-- ===== 3x3 YouTube hover grid (before teaser) ===== -->
 <div class="section">
-  <div class="yt-grid" id="ytGrid">
+<div class="yt-grid">
 
-    <div class="yt-card">
-      <div class="yt-wrap"><div id="yt0" data-video-id="X9mF51GZDHo"></div></div>
-      <div class="yt-label">A1</div>
+  <div class="yt-card">
+    <div class="yt-wrap">
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q"></iframe>
     </div>
-
-    <div class="yt-card">
-      <div class="yt-wrap"><div id="yt1" data-video-id="X9mF51GZDHo"></div></div>
-      <div class="yt-label">A2</div>
-    </div>
-
-    <div class="yt-card">
-      <div class="yt-wrap"><div id="yt2" data-video-id="X9mF51GZDHo"></div></div>
-      <div class="yt-label">A3</div>
-    </div>
-
-    <div class="yt-card">
-      <div class="yt-wrap"><div id="yt3" data-video-id="X9mF51GZDHo"></div></div>
-      <div class="yt-label">A4</div>
-    </div>
-
-    <div class="yt-card">
-      <div class="yt-wrap"><div id="yt4" data-video-id="X9mF51GZDHo"></div></div>
-      <div class="yt-label">A5</div>
-    </div>
-
-    <div class="yt-card">
-      <div class="yt-wrap"><div id="yt5" data-video-id="X9mF51GZDHo"></div></div>
-      <div class="yt-label">B1</div>
-    </div>
-
-    <div class="yt-card">
-      <div class="yt-wrap"><div id="yt6" data-video-id="X9mF51GZDHo"></div></div>
-      <div class="yt-label">B2</div>
-    </div>
-
-    <div class="yt-card">
-      <div class="yt-wrap"><div id="yt7" data-video-id="X9mF51GZDHo"></div></div>
-      <div class="yt-label">C1</div>
-    </div>
-
-    <div class="yt-card">
-      <div class="yt-wrap"><div id="yt8" data-video-id="X9mF51GZDHo"></div></div>
-      <div class="yt-label">C2</div>
-    </div>
-
+    <div class="yt-label">A1</div>
   </div>
+
+  <div class="yt-card">
+    <div class="yt-wrap">
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q"></iframe>
+    </div>
+    <div class="yt-label">A2</div>
+  </div>
+
+  <div class="yt-card">
+    <div class="yt-wrap">
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q"></iframe>
+    </div>
+    <div class="yt-label">A3</div>
+  </div>
+
+  <div class="yt-card">
+    <div class="yt-wrap">
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q"></iframe>
+    </div>
+    <div class="yt-label">A4</div>
+  </div>
+
+  <div class="yt-card">
+    <div class="yt-wrap">
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q"></iframe>
+    </div>
+    <div class="yt-label">A5</div>
+  </div>
+
+  <div class="yt-card">
+    <div class="yt-wrap">
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q"></iframe>
+    </div>
+    <div class="yt-label">B1</div>
+  </div>
+
+  <div class="yt-card">
+    <div class="yt-wrap">
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q"></iframe>
+    </div>
+    <div class="yt-label">B2</div>
+  </div>
+
+  <div class="yt-card">
+    <div class="yt-wrap">
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q"></iframe>
+    </div>
+    <div class="yt-label">C1</div>
+  </div>
+
+  <div class="yt-card">
+    <div class="yt-wrap">
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q"></iframe>
+    </div>
+    <div class="yt-label">C2</div>
+  </div>
+
+</div>
+
 </div>
 
 
@@ -312,68 +331,6 @@ year={2026}
 
 </div>
 
-<!-- YouTube IFrame API (required for hover play + mute) -->
-<script src="https://www.youtube.com/iframe_api"></script>
-<script>
-  const ytPlayers = new Map();
-
-  function ytEmbedSrc(videoId){
-    // enablejsapi=1 allows JS control
-    // controls=0 for clean demo wall
-    // loop=1 needs playlist=videoId to actually loop
-    return `https://www.youtube.com/embed/${videoId}?enablejsapi=1&playsinline=1&controls=0&rel=0&modestbranding=1&loop=1&playlist=${videoId}`;
-  }
-
-  function onYouTubeIframeAPIReady(){
-    const cells = document.querySelectorAll("#ytGrid [data-video-id]");
-
-    cells.forEach((cell) => {
-      const videoId = cell.dataset.videoId;
-      const player = new YT.Player(cell.id, {
-        videoId,
-        playerVars: {
-          playsinline: 1,
-          controls: 0,
-          rel: 0,
-          modestbranding: 1,
-          loop: 1,
-          playlist: videoId
-        },
-        events: {
-          onReady: (e) => {
-            e.target.mute(); // always muted
-          }
-        }
-      });
-
-      ytPlayers.set(cell.id, player);
-
-      const wrap = cell.closest(".yt-wrap");
-
-      // Desktop hover play
-      wrap.addEventListener("mouseenter", () => {
-        try { player.mute(); player.playVideo(); } catch(_) {}
-      });
-      wrap.addEventListener("mouseleave", () => {
-        try { player.pauseVideo(); player.seekTo(0, true); } catch(_) {}
-      });
-
-      // Mobile (no hover): tap to toggle
-      wrap.addEventListener("click", () => {
-        try {
-          const state = player.getPlayerState();
-          if (state === YT.PlayerState.PLAYING) {
-            player.pauseVideo();
-            player.seekTo(0, true);
-          } else {
-            player.mute();
-            player.playVideo();
-          }
-        } catch(_) {}
-      });
-    });
-  }
-</script>
 
 </body>
 </html>
