@@ -200,7 +200,7 @@ University / Lab Name
 
 <div class="video-card">
 <video muted loop preload="metadata">
-<source src="https://www.youtube.com/watch?v=uYGjkTL14Dc" type="video/mp4">
+<source src="https://github.com/eunice-f/openclaw/releases/download/videos/A1_web.mp4" type="video/mp4">
 </video>
 <div class="video-label">A2</div>
 </div>
