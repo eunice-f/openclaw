@@ -237,21 +237,21 @@ University / Lab Name
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="https://www.youtube.com/watch?v=yExUtIoSRzw" type="video/mp4">
+<source src="https://www.youtube.com/embed/fToNWljt--Q" type="video/mp4">
 </video>
 <div class="video-label">B2</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="https://www.youtube.com/watch?v=yExUtIoSRzw" type="video/mp4">
+<source src="https://www.youtube.com/embed/fToNWljt--Q" type="video/mp4">
 </video>
 <div class="video-label">C1</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="https://www.youtube.com/watch?v=yExUtIoSRzw" type="video/mp4">
+<source src="https://www.youtube.com/embed/fToNWljt--Q" type="video/mp4">
 </video>
 <div class="video-label">C2</div>
 </div>
