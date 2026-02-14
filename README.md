@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -5,96 +6,125 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  margin: 0;
-  background: #ffffff;
-  color: #222;
-  line-height: 1.6;
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+margin:0;
+background:#fff;
+color:#222;
+line-height:1.65;
 }
 
-.container {
-  max-width: 900px;
-  margin: auto;
-  padding: 40px 20px;
+.container{
+max-width:900px;
+margin:auto;
+padding:50px 20px;
 }
 
-h1 {
-  font-size: 2.2em;
-  text-align: center;
-  margin-bottom: 10px;
+h1{
+font-size:2.4em;
+text-align:center;
+margin-bottom:15px;
+line-height:1.25;
+font-weight:600;
 }
 
-.authors {
-  text-align: center;
-  font-size: 1.1em;
+.authors{
+text-align:center;
+font-size:1.15em;
+margin-bottom:6px;
 }
 
-.affiliation {
-  text-align: center;
-  color: #555;
-  margin-bottom: 30px;
+.authors span{
+margin:0 6px;
 }
 
-.links {
-  text-align: center;
-  margin: 25px 0;
+.affiliation{
+text-align:center;
+color:#666;
+margin-bottom:28px;
 }
 
-.links a {
-  display: inline-block;
-  margin: 5px;
-  padding: 10px 18px;
-  border-radius: 8px;
-  text-decoration: none;
-  color: white;
-  background: #2d6cdf;
-  font-weight: 500;
+.links{
+text-align:center;
+margin:30px 0 20px 0;
 }
 
-.links a:hover {
-  background: #1b4fb3;
+.links a{
+display:inline-block;
+margin:6px;
+padding:11px 20px;
+border-radius:9px;
+text-decoration:none;
+color:white;
+background:#2d6cdf;
+font-weight:600;
+font-size:15px;
+transition:.2s;
 }
 
-.section {
-  margin-top: 50px;
+.links a:hover{
+background:#1b4fb3;
+transform:translateY(-1px);
 }
 
-h2 {
-  border-bottom: 2px solid #eee;
-  padding-bottom: 6px;
+.section{
+margin-top:55px;
 }
 
-.video {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  border-radius: 10px;
+h2{
+border-bottom:2px solid #eee;
+padding-bottom:6px;
+font-weight:600;
 }
 
-.video iframe {
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  border:0;
+.video{
+position:relative;
+padding-bottom:56.25%;
+height:0;
+overflow:hidden;
+border-radius:12px;
+box-shadow:0 4px 18px rgba(0,0,0,.08);
 }
 
-pre {
-  background: #f6f6f6;
-  padding: 15px;
-  overflow-x: auto;
-  border-radius: 8px;
+.video iframe{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+border:0;
 }
 
-.footer {
-  text-align:center;
-  margin-top:60px;
-  font-size:0.9em;
-  color:#777;
+.teaser{
+width:100%;
+border-radius:12px;
+box-shadow:0 4px 18px rgba(0,0,0,.08);
 }
+
+p{
+font-size:17px;
+}
+
+ul{
+font-size:17px;
+padding-left:22px;
+}
+
+pre{
+background:#f6f6f6;
+padding:18px;
+overflow-x:auto;
+border-radius:10px;
+font-size:14px;
+}
+
+.footer{
+text-align:center;
+margin-top:70px;
+font-size:.9em;
+color:#888;
+}
+
 </style>
 </head>
 
@@ -105,33 +135,36 @@ pre {
 <h1>OpenClaw: Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation</h1>
 
 <div class="authors">
-Author1, Author2, Author3, Author4
+<span>Author1</span> ·
+<span>Author2</span> ·
+<span>Author3</span> ·
+<span>Author4</span>
 </div>
 
 <div class="affiliation">
-University / Lab Name<br>
-Conference / Journal (under review)
+University / Lab Name
 </div>
 
 
 <div class="links">
-<a href="#">Paper PDF</a>
+<a href="#">Paper</a>
+<a href="#video">Video</a>
 <a href="#">Code</a>
-<a href="#">Hardware</a>
 <a href="#">Dataset</a>
+<a href="#">Hardware</a>
 </div>
 
 
 <div class="section">
+<img src="teaser.png" class="teaser" alt="teaser image">
+</div>
+
+
+<div id="video" class="section">
 <h2>Video</h2>
 <div class="video">
-<iframe 
-src="https://www.youtube.com/embed/fToNWljt--Q"
-title="OpenClaw Video"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
+<iframe src="https://www.youtube.com/embed/fToNWljt--Q"
+allowfullscreen></iframe>
 </div>
 </div>
 
@@ -140,13 +173,23 @@ allowfullscreen>
 <h2>Abstract</h2>
 <p>
 We study contact-rich removal manipulation, where objects must be detached,
-peeled, or extracted through sequential interactions under partial
-observability. We introduce OpenClaw, a three-finger robotic hand with
-modular fingertip force sensing and wrist-frame force representation,
-together with a nine-task real-robot evaluation suite. Experiments show
-that wrist-frame force sensing improves stability and generalization
-in removal tasks compared to local-frame sensing and vision-only baselines.
+peeled, or extracted through sequential interactions under partial observability.
+We introduce OpenClaw, a three-finger robotic hand with modular fingertip force
+sensing and wrist-frame force representation, together with a nine-task real-robot
+evaluation suite. Experiments show that wrist-frame force sensing improves stability
+and generalization in removal tasks compared to local-frame sensing and vision-only baselines.
 </p>
+</div>
+
+
+<div class="section">
+<h2>Highlights</h2>
+<ul>
+<li>First real-robot benchmark suite for removal manipulation</li>
+<li>Wrist-frame force representation improves policy stability</li>
+<li>Nine-task evaluation with held-out generalization</li>
+<li>Open-source hardware platform for reproducible experiments</li>
+</ul>
 </div>
 
 
@@ -163,20 +206,20 @@ removal scenarios.
 
 
 <div class="section">
-<h2>BibTeX</h2>
+<h2>Citation</h2>
 <pre>
 @article{openclaw2026,
-  title={OpenClaw: Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation},
-  author={Author1 and Author2 and Author3},
-  journal={T-RO (under review)},
-  year={2026}
+title={OpenClaw: Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation},
+author={Author1 and Author2 and Author3},
+journal={Under Review},
+year={2026}
 }
 </pre>
 </div>
 
 
 <div class="footer">
-Page template inspired by common robotics project pages.
+Project page template for robotics research papers
 </div>
 
 </div>
