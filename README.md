@@ -194,7 +194,7 @@ University / Lab Name
 <div class="video-grid">
 
 <video controls width="300">
-<source src="https://www.youtube.com/watch?v=uYGjkTL14Dc" type="video/mp4">
+<source src="https://github.com/eunice-f/openclaw/releases/download/videos/A1-1.mp4" type="video/mp4">
 </video>
 
 
