@@ -193,7 +193,7 @@ University / Lab Name
 
 <div class="video-grid">
 
-<video controls width="300" muted loop>
+<video controls width="300">
 <source src="https://www.youtube.com/watch?v=uYGjkTL14Dc" type="video/mp4">
 </video>
 
