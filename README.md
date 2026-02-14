@@ -195,63 +195,63 @@ University / Lab Name
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="videos/A1.mp4" type="video/mp4">
+<source src="[videos/A1.mp4](https://github.com/eunice-f/openclaw/releases)" type="video/mp4">
 </video>
 <div class="video-label">A1</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="videos/A2.mp4" type="video/mp4">
+<source src="[videos/A2.mp4](https://github.com/eunice-f/openclaw/releases/download/videos/A2-1.mp4)" type="video/mp4">
 </video>
 <div class="video-label">A2</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="videos/A3.mp4" type="video/mp4">
+<source src="[videos/A3.mp4](https://github.com/eunice-f/openclaw/releases/download/videos/A3-1.mp4)" type="video/mp4">
 </video>
 <div class="video-label">A3</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="videos/A4.mp4" type="video/mp4">
+<source src="[videos/A4.mp4](https://github.com/eunice-f/openclaw/releases/download/videos/A4-1.mp4)" type="video/mp4">
 </video>
 <div class="video-label">A4</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="videos/A5.mp4" type="video/mp4">
+<source src="[videos/A5.mp4](https://github.com/eunice-f/openclaw/releases/download/videos/A5-1.mp4)" type="video/mp4">
 </video>
 <div class="video-label">A5</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="videos/B1.mp4" type="video/mp4">
+<source src="[videos/B1.mp4](https://github.com/eunice-f/openclaw/releases/download/videos/B1-1.mp4)" type="video/mp4">
 </video>
 <div class="video-label">B1</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="videos/B2.mp4" type="video/mp4">
+<source src="[videos/B2.mp4](https://github.com/eunice-f/openclaw/releases/download/videos/B2-1.mp4)" type="video/mp4">
 </video>
 <div class="video-label">B2</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="videos/C1.mp4" type="video/mp4">
+<source src="[videos/C1.mp4](https://github.com/eunice-f/openclaw/releases/download/videos/C1-3.mp4)" type="video/mp4">
 </video>
 <div class="video-label">C1</div>
 </div>
 
 <div class="video-card">
 <video muted loop preload="none">
-<source src="videos/C2.mp4" type="video/mp4">
+<source src="[videos/C2.mp4](https://github.com/eunice-f/openclaw/releases/download/videos/C2-1.mp4)" type="video/mp4">
 </video>
 <div class="video-label">C2</div>
 </div>
