@@ -194,63 +194,63 @@ University / Lab Name
 <div class="video-grid">
 
 <div class="video-card">
-<video muted loop preload="none">
+<video muted loop preload="metadata">
 <source src="https://www.youtube.com/watch?v=X9mF51GZDHo" type="video/mp4">
 </video>
 <div class="video-label">A1</div>
 </div>
 
 <div class="video-card">
-<video muted loop preload="none">
+<video muted loop preload="metadata">
 <source src="https://www.youtube.com/watch?v=uYGjkTL14Dc" type="video/mp4">
 </video>
 <div class="video-label">A2</div>
 </div>
 
 <div class="video-card">
-<video muted loop preload="none">
+<video muted loop preload="metadata">
 <source src="https://www.youtube.com/watch?v=hTsSUf5eFuc" type="video/mp4">
 </video>
 <div class="video-label">A3</div>
 </div>
 
 <div class="video-card">
-<video muted loop preload="none">
+<video muted loop preload="metadata">
 <source src="https://www.youtube.com/watch?v=rsJYUgpaC-I" type="video/mp4">
 </video>
 <div class="video-label">A4</div>
 </div>
 
 <div class="video-card">
-<video muted loop preload="none">
+<video muted loop preload="metadata">
 <source src="https://www.youtube.com/watch?v=1LmSPOH6E8M" type="video/mp4">
 </video>
 <div class="video-label">A5</div>
 </div>
 
 <div class="video-card">
-<video muted loop preload="none">
+<video muted loop preload="metadata">
 <source src="https://www.youtube.com/watch?v=yExUtIoSRzw" type="video/mp4">
 </video>
 <div class="video-label">B1</div>
 </div>
 
 <div class="video-card">
-<video muted loop preload="none">
+<video muted loop preload="metadata">
 <source src="https://www.youtube.com/embed/fToNWljt--Q" type="video/mp4">
 </video>
 <div class="video-label">B2</div>
 </div>
 
 <div class="video-card">
-<video muted loop preload="none">
+<video muted loop preload="metadata">
 <source src="https://www.youtube.com/embed/fToNWljt--Q" type="video/mp4">
 </video>
 <div class="video-label">C1</div>
 </div>
 
 <div class="video-card">
-<video muted loop preload="none">
+<video muted loop preload="metadata">
 <source src="https://www.youtube.com/embed/fToNWljt--Q" type="video/mp4">
 </video>
 <div class="video-label">C2</div>
