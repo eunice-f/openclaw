@@ -249,6 +249,7 @@ pre{
   </div>
 </div>
 
+
 <div class="section">
   <img src="teaser.png" class="teaser" alt="teaser image">
 </div>
