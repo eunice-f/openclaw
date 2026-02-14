@@ -1,1 +1,184 @@
-# -openclaw.github.io
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OpenClaw Project Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #222;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2.2em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.authors {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.affiliation {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.links {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.links a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  background: #2d6cdf;
+  font-weight: 500;
+}
+
+.links a:hover {
+  background: #1b4fb3;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 6px;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.video iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border:0;
+}
+
+pre {
+  background: #f6f6f6;
+  padding: 15px;
+  overflow-x: auto;
+  border-radius: 8px;
+}
+
+.footer {
+  text-align:center;
+  margin-top:60px;
+  font-size:0.9em;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>OpenClaw: Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation</h1>
+
+<div class="authors">
+Author1, Author2, Author3, Author4
+</div>
+
+<div class="affiliation">
+University / Lab Name<br>
+Conference / Journal (under review)
+</div>
+
+
+<div class="links">
+<a href="#">Paper PDF</a>
+<a href="#">Code</a>
+<a href="#">Hardware</a>
+<a href="#">Dataset</a>
+</div>
+
+
+<div class="section">
+<h2>Video</h2>
+<div class="video">
+<iframe 
+src="https://www.youtube.com/embed/fToNWljt--Q"
+title="OpenClaw Video"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+</div>
+</div>
+
+
+<div class="section">
+<h2>Abstract</h2>
+<p>
+We study contact-rich removal manipulation, where objects must be detached,
+peeled, or extracted through sequential interactions under partial
+observability. We introduce OpenClaw, a three-finger robotic hand with
+modular fingertip force sensing and wrist-frame force representation,
+together with a nine-task real-robot evaluation suite. Experiments show
+that wrist-frame force sensing improves stability and generalization
+in removal tasks compared to local-frame sensing and vision-only baselines.
+</p>
+</div>
+
+
+<div class="section">
+<h2>Overview</h2>
+<p>
+OpenClaw is designed for studying contact-rich manipulation where interaction
+forces, occlusions, and sequential state transitions play a central role.
+The system integrates fingertip force sensing, a unified representation,
+and a multimodal policy, enabling reproducible evaluation across diverse
+removal scenarios.
+</p>
+</div>
+
+
+<div class="section">
+<h2>BibTeX</h2>
+<pre>
+@article{openclaw2026,
+  title={OpenClaw: Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation},
+  author={Author1 and Author2 and Author3},
+  journal={T-RO (under review)},
+  year={2026}
+}
+</pre>
+</div>
+
+
+<div class="footer">
+Page template inspired by common robotics project pages.
+</div>
+
+</div>
+</body>
+</html>
