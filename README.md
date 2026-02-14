@@ -156,7 +156,7 @@ University / Lab Name
 
 
 <div class="section">
-<img src="teaser.png" class="teaser" alt="teaser image">
+<img src="teaser01_01.png" class="teaser" alt="teaser image">
 </div>
 
 
