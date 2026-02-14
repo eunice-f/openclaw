@@ -201,72 +201,45 @@ pre{
 <div class="section">
 <div class="yt-grid">
 
-  <div class="yt-card">
-    <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/yExUtIoSRzw" allow="autoplay"></iframe>
-    </div>
-    <div class="yt-label">A1 success</div>
-  </div>
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/yExUtIoSRzw?autoplay=1&mute=1&loop=1&playlist=yExUtIoSRzw&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A1 success</div></div>
 
-  <div class="yt-card">
-    <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/cD3NlRmJ6lw" allow="autoplay"></iframe>
-    </div>
-    <div class="yt-label">A2 success</div>
-  </div>
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/cD3NlRmJ6lw?autoplay=1&mute=1&loop=1&playlist=cD3NlRmJ6lw&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A2 success</div></div>
 
-  <div class="yt-card">
-    <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/rsJYUgpaC-I" allow="autoplay"></iframe>
-    </div>
-    <div class="yt-label">A3 success</div>
-  </div>
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/rsJYUgpaC-I?autoplay=1&mute=1&loop=1&playlist=rsJYUgpaC-I&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A3 success</div></div>
 
-  <div class="yt-card">
-    <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/hTsSUf5eFuc" allow="autoplay"></iframe>
-    </div>
-    <div class="yt-label">A4 success</div>
-  </div>
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/hTsSUf5eFuc?autoplay=1&mute=1&loop=1&playlist=hTsSUf5eFuc&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A4 success</div></div>
 
-  <div class="yt-card">
-    <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/X9mF51GZDHo" allow="autoplay"></iframe>
-    </div>
-    <div class="yt-label">A5 success</div>
-  </div>
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/X9mF51GZDHo?autoplay=1&mute=1&loop=1&playlist=X9mF51GZDHo&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A5 success</div></div>
 
-  <div class="yt-card">
-    <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
-    </div>
-    <div class="yt-label">B1</div>
-  </div>
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">B1</div></div>
 
-  <div class="yt-card">
-    <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
-    </div>
-    <div class="yt-label">B2</div>
-  </div>
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">B2</div></div>
 
-  <div class="yt-card">
-    <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
-    </div>
-    <div class="yt-label">C1</div>
-  </div>
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">C1</div></div>
 
-  <div class="yt-card">
-    <div class="yt-wrap">
-      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
-    </div>
-    <div class="yt-label">C2</div>
-  </div>
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">C2</div></div>
 
 </div>
-
 </div>
+
 
 
 <div class="section">
