@@ -13,6 +13,7 @@ color:#222;
 line-height:1.65;
 }
 
+
 .container{
 max-width:900px;
 margin:auto;
@@ -124,6 +125,40 @@ font-size:.9em;
 color:#888;
 }
 
+  /* ---------- 9 video grid ---------- */
+.video-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+margin-bottom:35px;
+}
+
+.video-card{
+text-align:center;
+}
+
+.video-grid video{
+width:100%;
+border-radius:12px;
+box-shadow:0 4px 18px rgba(0,0,0,.08);
+cursor:pointer;
+}
+
+.video-label{
+margin-top:6px;
+font-size:14px;
+font-weight:600;
+color:#333;
+}
+
+/* mobile */
+@media (max-width:700px){
+.video-grid{
+grid-template-columns:repeat(2,1fr);
+}
+}
+
+
 </style>
 </head>
 
@@ -151,6 +186,77 @@ University / Lab Name
 <a href="#">Code</a>
 <a href="#">Dataset</a>
 <a href="#">Hardware</a>
+</div>
+
+
+<div class="section">
+
+<div class="video-grid">
+
+<div class="video-card">
+<video muted loop preload="none">
+<source src="videos/A1.mp4" type="video/mp4">
+</video>
+<div class="video-label">A1</div>
+</div>
+
+<div class="video-card">
+<video muted loop preload="none">
+<source src="videos/A2.mp4" type="video/mp4">
+</video>
+<div class="video-label">A2</div>
+</div>
+
+<div class="video-card">
+<video muted loop preload="none">
+<source src="videos/A3.mp4" type="video/mp4">
+</video>
+<div class="video-label">A3</div>
+</div>
+
+<div class="video-card">
+<video muted loop preload="none">
+<source src="videos/A4.mp4" type="video/mp4">
+</video>
+<div class="video-label">A4</div>
+</div>
+
+<div class="video-card">
+<video muted loop preload="none">
+<source src="videos/A5.mp4" type="video/mp4">
+</video>
+<div class="video-label">A5</div>
+</div>
+
+<div class="video-card">
+<video muted loop preload="none">
+<source src="videos/B1.mp4" type="video/mp4">
+</video>
+<div class="video-label">B1</div>
+</div>
+
+<div class="video-card">
+<video muted loop preload="none">
+<source src="videos/B2.mp4" type="video/mp4">
+</video>
+<div class="video-label">B2</div>
+</div>
+
+<div class="video-card">
+<video muted loop preload="none">
+<source src="videos/C1.mp4" type="video/mp4">
+</video>
+<div class="video-label">C1</div>
+</div>
+
+<div class="video-card">
+<video muted loop preload="none">
+<source src="videos/C2.mp4" type="video/mp4">
+</video>
+<div class="video-label">C2</div>
+</div>
+
+</div>
 </div>
 
 
@@ -222,5 +328,15 @@ Project page template for robotics research papers
 </div>
 
 </div>
+<script>
+document.querySelectorAll(".video-grid video").forEach(v=>{
+v.addEventListener("mouseenter",()=>v.play());
+v.addEventListener("mouseleave",()=>{
+v.pause();
+v.currentTime=0;
+});
+});
+</script>
+
 </body>
 </html>
