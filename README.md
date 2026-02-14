@@ -193,12 +193,10 @@ University / Lab Name
 
 <div class="video-grid">
 
-<div class="video-card">
-<video muted loop preload="metadata">
-<source src="https://www.youtube.com/watch?v=X9mF51GZDHo" type="video/mp4">
+<video controls width="300">
+<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
 </video>
-<div class="video-label">A1</div>
-</div>
+
 
 <div class="video-card">
 <video muted loop preload="metadata">
