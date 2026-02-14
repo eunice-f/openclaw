@@ -15,9 +15,9 @@ body{
 }
 
 .container{
-  max-width:900px;
+  max-width:1400px;
   margin:auto;
-  padding:50px 20px;
+  padding:50px 30px;
 }
 
 h1{
@@ -129,7 +129,7 @@ pre{
 .yt-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  gap:18px;
+  gap:28px;
   margin-bottom:35px;
 }
 
@@ -141,7 +141,7 @@ pre{
   position:relative;
   width:100%;
   padding-bottom:56.25%; /* 16:9 */
-  border-radius:12px;
+  border-radius:16px;
   overflow:hidden;
   box-shadow:0 4px 18px rgba(0,0,0,.08);
   background:#000;
