@@ -193,8 +193,8 @@ University / Lab Name
 
 <div class="video-grid">
 
-<video controls width="300">
-<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+<video controls width="300" muted loop>
+<source src="https://www.youtube.com/watch?v=uYGjkTL14Dc" type="video/mp4">
 </video>
 
 
