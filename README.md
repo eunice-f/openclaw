@@ -203,63 +203,63 @@ pre{
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe class="yt-hover" data-id="fToNWljt--Q"></iframe>
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">A1</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe class="yt-hover" data-id="fToNWljt--Q"></iframe>
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">A2</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe class="yt-hover" data-id="fToNWljt--Q"></iframe>
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">A3</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe class="yt-hover" data-id="fToNWljt--Q"></iframe>
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">A4</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe class="yt-hover" data-id="fToNWljt--Q"></iframe>
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">A5</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe class="yt-hover" data-id="fToNWljt--Q"></iframe>
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">B1</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe class="yt-hover" data-id="fToNWljt--Q"></iframe>
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">B2</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe class="yt-hover" data-id="fToNWljt--Q"></iframe>
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">C1</div>
   </div>
 
   <div class="yt-card">
     <div class="yt-wrap">
-      <iframe class="yt-hover" data-id="fToNWljt--Q"></iframe>
+      <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allow="autoplay"></iframe>
     </div>
     <div class="yt-label">C2</div>
   </div>
@@ -331,31 +331,6 @@ year={2026}
 
 </div>
 
-
-
-<script>
-document.querySelectorAll(".yt-hover").forEach(frame=>{
-  const id = frame.dataset.id;
-
-  const preview =
-    `https://www.youtube.com/embed/${id}?mute=1&controls=0&rel=0&modestbranding=1&loop=1&playlist=${id}`;
-
-  const play =
-    preview + "&autoplay=1";
-
-  frame.src = preview;
-
-  const box = frame.closest(".yt-wrap");
-
-  box.addEventListener("mouseenter", ()=>{
-    frame.src = play;
-  });
-
-  box.addEventListener("mouseleave", ()=>{
-    frame.src = preview;
-  });
-});
-</script>
 
 </body>
 </html>
