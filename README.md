@@ -156,8 +156,11 @@ University / Lab Name
 
 
 <div class="section">
-<img src="teaser01_01.png" class="teaser" alt="teaser image">
+  <img src="teaser01_01.png" 
+       style="width:100%; max-width:100%; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.08);" 
+       alt="teaser image">
 </div>
+
 
 
 <div id="video" class="section">
