@@ -174,8 +174,15 @@ pre{
   }
 }
 
+.main-title{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+}
+
 .main-title img{
-  height:1.2em;
+  height:1em;
 }
 
 </style>
@@ -184,8 +191,10 @@ pre{
 <body>
 
 <div class="container">
-<img src="icon.png">
-<h1>OpenClaw: A Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation</h1>
+<h1 class="main-title">
+  <img src="icon.png" alt="logo">
+  OpenClaw: A Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation
+</h1>
 
 <div class="authors">
   <span>Author1</span> ·
