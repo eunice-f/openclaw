@@ -182,7 +182,7 @@ pre{
 }
 
 .main-title img{
-  height:1em;
+  height:1.25em;
 }
 
 </style>
