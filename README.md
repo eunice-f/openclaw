@@ -67,6 +67,18 @@ h1{
   transform:translateY(-1px);
 }
 
+.links a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.links a.disabled:hover {
+  background: inherit;
+  color: inherit;
+  box-shadow: none;
+}
+
+
 .section{
   margin-top:55px;
 }
@@ -206,11 +218,11 @@ pre{
 </div>
 
 <div class="links">
-  <a href="#">Paper (PDF)</a>
-  <a href="#video">Video</a>
-  <a class="disabled">Code (coming soon)</a>
-  <a class="disabled">Dataset (coming soon)</a>
-  <a class="disabled">Hardware (CAD & files)</a>
+  <a href="disabled">Paper (PDF)</a>
+  <a href="https://youtu.be/fToNWljt--Q" target="_blank" rel="noopener noreferrer">Video</a>
+  <a class="disabled">Code</a>
+  <a class="disabled">Dataset</a>
+  <a class="disabled">Hardware</a>
 </div>
 
 <div class="section">
