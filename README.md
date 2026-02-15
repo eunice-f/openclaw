@@ -201,61 +201,63 @@ pre{
   <a href="#">Hardware</a>
 </div>
 
-<!-- ===== 3x3 YouTube hover grid (before teaser) ===== -->
-<div class="section">
-<div class="yt-grid">
-
-<div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/yExUtIoSRzw?autoplay=1&mute=1&loop=1&playlist=yExUtIoSRzw&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
-</div><div class="yt-label">A1 success</div></div>
-
-<div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/cD3NlRmJ6lw?autoplay=1&mute=1&loop=1&playlist=cD3NlRmJ6lw&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
-</div><div class="yt-label">A2 success</div></div>
-
-<div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/rsJYUgpaC-I?autoplay=1&mute=1&loop=1&playlist=rsJYUgpaC-I&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
-</div><div class="yt-label">A3 success</div></div>
-
-<div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/hTsSUf5eFuc?autoplay=1&mute=1&loop=1&playlist=hTsSUf5eFuc&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
-</div><div class="yt-label">A4 success</div></div>
-
-<div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/X9mF51GZDHo?autoplay=1&mute=1&loop=1&playlist=X9mF51GZDHo&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
-</div><div class="yt-label">A5 success</div></div>
-
-<div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
-</div><div class="yt-label">B1</div></div>
-
-<div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
-</div><div class="yt-label">B2</div></div>
-
-<div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
-</div><div class="yt-label">C1</div></div>
-
-<div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
-</div><div class="yt-label">C2</div></div>
-
-</div>
-</div>
-
-
-
-<div class="section">
-  <img src="teaser.png" class="teaser" alt="teaser image">
-</div>
-
 <div id="video" class="section">
   <h2>Video</h2>
   <div class="video">
     <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allowfullscreen></iframe>
   </div>
 </div>
+
+<div class="section">
+  <img src="teaser.png" class="teaser" alt="teaser image">
+</div>
+
+
+<!-- ===== 3x3 YouTube hover grid (before teaser) ===== -->
+<div class="section">
+<h2>Results Highlights</h2>
+<div class="yt-grid">
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/yExUtIoSRzw?autoplay=1&mute=1&loop=1&playlist=yExUtIoSRzw&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A1: Barnacle removal </div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/cD3NlRmJ6lw?autoplay=1&mute=1&loop=1&playlist=cD3NlRmJ6lw&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A2: 3D-print removal</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/rsJYUgpaC-I?autoplay=1&mute=1&loop=1&playlist=rsJYUgpaC-I&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A3: Blu-Tack removal</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/hTsSUf5eFuc?autoplay=1&mute=1&loop=1&playlist=hTsSUf5eFuc&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A4: Wood-ear extraction</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/X9mF51GZDHo?autoplay=1&mute=1&loop=1&playlist=X9mF51GZDHo&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A5: Self-cleaning</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">B1: Plate wiping</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">B2: Hand wiping</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">C1: Sand excavation</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">C2: Cat litter removal</div></div>
+
+</div>
+</div>
+
+
 
 <div class="section">
   <h2>Abstract</h2>
