@@ -178,7 +178,7 @@ pre{
   display:flex;
   align-items:center;
   justify-content:center;
-  gap:6px;
+  gap:8px;
   text-align:left;
 }
 
