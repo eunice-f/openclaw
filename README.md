@@ -198,22 +198,19 @@ pre{
 </h1>
 
 <div class="authors">
-  <span>Author1</span> ·
-  <span>Author2</span> ·
-  <span>Author3</span> ·
-  <span>Author4</span>
+  <span>Anonymous Authors</span>
 </div>
 
 <div class="affiliation">
-  University / Lab Name
+  Affiliation withheld for double-blind review
 </div>
 
 <div class="links">
-  <a href="#">Paper</a>
+  <a href="#">Paper (PDF)</a>
   <a href="#video">Video</a>
-  <a href="#">Code</a>
-  <a href="#">Dataset</a>
-  <a href="#">Hardware</a>
+  <a class="disabled">Code (coming soon)</a>
+  <a class="disabled">Dataset (coming soon)</a>
+  <a class="disabled">Hardware (CAD & files)</a>
 </div>
 
 <div class="section">
