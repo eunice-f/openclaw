@@ -22,7 +22,7 @@ body{
 
 h1{
   font-size:3.0em;
-  text-align:center;
+  text-align:unset;
   margin-bottom:15px;
   line-height:1.25;
   font-weight:600;
@@ -178,12 +178,12 @@ pre{
   display:flex;
   align-items:center;
   justify-content:center;
-  gap:2px;
+  gap:6px;
+  text-align:left;
 }
 
 .main-title img{
   height:2.5em;
-  transform:translateY(2px);
 }
 
 </style>
