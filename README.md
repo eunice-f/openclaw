@@ -214,24 +214,24 @@ pre{
 </div>
 
 <div id="video" class="section">
-  <h2>Video</h2>
+  <h2>Project Video</h2>
   <div class="video">
     <iframe src="https://www.youtube.com/embed/fToNWljt--Q" allowfullscreen></iframe>
   </div>
 </div>
 
 <div class="section">
-  <h2>Wrist-Frame Fingertip Force Sensing</h2>
+  <h2>Force Representation</h2>
   <img src="teaser.png" class="teaser" alt="teaser image">
 </div>
 
 <div class="section">
-  <h2>ACT-based Imitation Learning</h2>
+  <h2>Learning Method</h2>
   <img src="framework.png" class="teaser" alt="teaser image">
 </div>
 
 <div class="section">
-  <h2>OpenClaw Learning Platform</h2>
+  <h2>Platform</h2>
   <img src="platform.png" class="teaser" alt="teaser image">
 </div>
 
