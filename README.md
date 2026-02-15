@@ -256,7 +256,7 @@ Multi-finger fingertip forces expressed in a common wrist frame for consistent c
 </div>
 
 <div class="card">
-<div class="big">9-task benchmark</div>
+<div class="big">9-task removal suite</div>
 <div class="small">
 Contact-rich removal suite spanning adhesive detachment, cleaning, self-cleaning, and occluded retrieval under held-out real-robot tests.
 </div>
