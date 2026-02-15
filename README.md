@@ -221,18 +221,27 @@ pre{
 </div>
 
 <div class="section">
-  <h2>Force Representation</h2>
+  <h2>OpenClaw for Contact-Rich Removal Manipulation</h2>
   <img src="teaser.png" class="teaser" alt="teaser image">
+  <p class="caption">
+  OpenClaw performs contact-rich removal behaviors (e.g., detachment and cleaning) by conditioning an ACT-based imitation learning policy on RGB, joint state, and wrist-frame multi-finger fingertip forces, enabling progressive debonding and sequential contact under uncertainty.
+  </p>
 </div>
 
 <div class="section">
-  <h2>Learning Method</h2>
+  <h2>Multimodal ACT Policy with Wrist-Frame Forces</h2>
   <img src="framework.png" class="teaser" alt="teaser image">
+  <p class="caption">
+  We express each fingertip force in a common wrist frame (via forward kinematics), encode RGB / joint state / contact forces, and predict an action chunk using an Action Chunking Transformer for robust contact-rich control.
+  </p>
 </div>
 
 <div class="section">
-  <h2>Platform</h2>
+  <h2>OpenClaw Platform and Real-Robot Evaluation Setup</h2>
   <img src="platform.png" class="teaser" alt="teaser image">
+  <p class="caption">
+  A leader–follower OpenClaw setup with multi-view cameras supports demonstration collection and held-out real-robot evaluation; inset shows the modular three-axis fingertip force sensor used for contact feedback.
+  </p>
 </div>
 
 
