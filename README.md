@@ -304,6 +304,12 @@ pre{
 <iframe src="https://www.youtube.com/embed/rKi1vRhVS8o?autoplay=1&mute=1&loop=1&playlist=rKi1vRhVS8o&controls=0&modestbranding=1&rel=0" allow="autoplay"></iframe>
 </div><div class="yt-label">C2: Cat litter removal</div></div>
 
+<div class="section-caption">
+  <strong>Results Highlights.</strong>
+  Representative executions across the nine-task removal suite under held-out real-robot conditions with synchronized multi-view observations and fingertip force traces.
+</div>
+
+
 </div>
 </div>
 
@@ -348,6 +354,11 @@ pre{
 <div class="yt-card"><div class="yt-wrap">
 <iframe src="https://www.youtube.com/embed/4EEzw4zFjFE?autoplay=1&mute=1&loop=1&playlist=4EEzw4zFjFE&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
 </div><div class="yt-label">C2: Cat litter removal</div></div>
+
+  <div class="section-caption">
+    <strong>Baseline Failures.</strong>
+    Representative failure cases from baseline policies evaluated under identical conditions, highlighting the challenges of contact-rich removal without wrist-frame multi-finger force sensing.
+  </div>
 
 </div>
 </div>
