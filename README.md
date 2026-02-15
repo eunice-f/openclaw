@@ -222,6 +222,7 @@ pre{
   <a class="disabled">Code</a>
   <a class="disabled">Dataset</a>
   <a class="disabled">Hardware</a>
+  <a class="disabled">Paper</a>
 </div>
 
 <div class="section">
