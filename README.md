@@ -173,13 +173,18 @@ pre{
     grid-template-columns:repeat(2,1fr);
   }
 }
+
+.main-title img{
+  height:1.2em;
+}
+
 </style>
 </head>
 
 <body>
 
 <div class="container">
-
+<img src="icon.png">
 <h1>OpenClaw: A Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation</h1>
 
 <div class="authors">
