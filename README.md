@@ -180,7 +180,7 @@ pre{
 
 <div class="container">
 
-<h1>OpenClaw: Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation</h1>
+<h1>OpenClaw: A Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation</h1>
 
 <div class="authors">
   <span>Author1</span> ·
@@ -201,6 +201,18 @@ pre{
   <a href="#">Hardware</a>
 </div>
 
+<div class="section">
+  <h2>Abstract</h2>
+  <p>
+    We study contact-rich removal manipulation, where objects must be detached,
+    peeled, or extracted through sequential interactions under partial observability.
+    We introduce OpenClaw, a three-finger robotic hand with modular fingertip force
+    sensing and wrist-frame force representation, together with a nine-task real-robot
+    evaluation suite. Experiments show that wrist-frame force sensing improves stability
+    and generalization in removal tasks compared to local-frame sensing and vision-only baselines.
+  </p>
+</div>
+
 <div id="video" class="section">
   <h2>Video</h2>
   <div class="video">
@@ -209,7 +221,18 @@ pre{
 </div>
 
 <div class="section">
+  <h2>Wrist-Frame Fingertip Force Sensing</h2>
   <img src="teaser.png" class="teaser" alt="teaser image">
+</div>
+
+<div class="section">
+  <h2>ACT-based Imitation Learning</h2>
+  <img src="framework.png" class="teaser" alt="teaser image">
+</div>
+
+<div class="section">
+  <h2>OpenClaw Learning Platform</h2>
+  <img src="platform.png" class="teaser" alt="teaser image">
 </div>
 
 
@@ -260,28 +283,6 @@ pre{
 
 
 <div class="section">
-  <h2>Abstract</h2>
-  <p>
-    We study contact-rich removal manipulation, where objects must be detached,
-    peeled, or extracted through sequential interactions under partial observability.
-    We introduce OpenClaw, a three-finger robotic hand with modular fingertip force
-    sensing and wrist-frame force representation, together with a nine-task real-robot
-    evaluation suite. Experiments show that wrist-frame force sensing improves stability
-    and generalization in removal tasks compared to local-frame sensing and vision-only baselines.
-  </p>
-</div>
-
-<div class="section">
-  <h2>Highlights</h2>
-  <ul>
-    <li>First real-robot benchmark suite for removal manipulation</li>
-    <li>Wrist-frame force representation improves policy stability</li>
-    <li>Nine-task evaluation with held-out generalization</li>
-    <li>Open-source hardware platform for reproducible experiments</li>
-  </ul>
-</div>
-
-<div class="section">
   <h2>Overview</h2>
   <p>
     OpenClaw is designed for studying contact-rich manipulation where interaction
@@ -296,7 +297,7 @@ pre{
   <h2>Citation</h2>
   <pre>
 @article{openclaw2026,
-title={OpenClaw: Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation},
+title={OpenClaw: A Wrist-Frame Fingertip Force Sensing Hand for Contact-Rich Removal Manipulation},
 author={Author1 and Author2 and Author3},
 journal={Under Review},
 year={2026}
