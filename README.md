@@ -218,7 +218,6 @@ pre{
 </div>
 
 <div class="links">
-  <a href="disabled">Paper (PDF)</a>
   <a href="https://youtu.be/fToNWljt--Q" target="_blank" rel="noopener noreferrer">Video</a>
   <a class="disabled">Code</a>
   <a class="disabled">Dataset</a>
