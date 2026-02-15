@@ -232,6 +232,31 @@ pre{
   </p>
 </div>
 
+<div class="kpi">
+
+  <div class="card">
+    <div class="big">Wrist-frame forces</div>
+    <div class="small">
+      Multi-finger fingertip forces expressed in a common wrist frame for consistent contact representation across changing finger configurations.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="big">9-task real benchmark</div>
+    <div class="small">
+      A contact-rich removal manipulation suite spanning adhesive detachment, cleaning, self-cleaning, and occluded retrieval under held-out real-robot tests.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="big">OpenClaw platform</div>
+    <div class="small">
+      Open three-finger hand with modular three-axis fingertip force sensing for reproducible real-world evaluation.
+    </div>
+  </div>
+
+</div>
+
 <div id="video" class="section">
   <h2>Project Video</h2>
   <div class="video">
