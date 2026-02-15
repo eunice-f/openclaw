@@ -263,7 +263,7 @@ pre{
 </div>
 
 
-<!-- ===== 3x3 YouTube hover grid (before teaser) ===== -->
+<!-- ===== 3x3 YouTube hover grid1 ===== -->
 <div class="section">
 <h2>Results Highlights</h2>
 <div class="yt-grid">
@@ -289,19 +289,64 @@ pre{
 </div><div class="yt-label">A5: Self-cleaning</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+<iframe src="https://www.youtube.com/embed/rVNPC63pX0g?autoplay=1&mute=1&loop=1&playlist=rVNPC63pX0g&controls=0&modestbranding=1&rel=0" allow="autoplay"></iframe>
 </div><div class="yt-label">B1: Plate wiping</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+<iframe src="https://www.youtube.com/embed/Q2C5nicSb48?autoplay=1&mute=1&loop=1&playlist=Q2C5nicSb48&controls=0&modestbranding=1&rel=0" allow="autoplay"></iframe>
 </div><div class="yt-label">B2: Hand wiping</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+<iframe src="https://www.youtube.com/embed/wJzKSvNU5gA?autoplay=1&mute=1&loop=1&playlist=wJzKSvNU5gA&controls=0&modestbranding=1&rel=0" allow="autoplay"></iframe>
 </div><div class="yt-label">C1: Sand excavation</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/fToNWljt--Q?autoplay=1&mute=1&loop=1&playlist=fToNWljt--Q&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+<iframe src="https://www.youtube.com/embed/rKi1vRhVS8o?autoplay=1&mute=1&loop=1&playlist=rKi1vRhVS8o&controls=0&modestbranding=1&rel=0" allow="autoplay"></iframe>
+</div><div class="yt-label">C2: Cat litter removal</div></div>
+
+</div>
+</div>
+
+
+<!-- ===== Failure Cases ===== -->
+<div class="section">
+<h2>Baseline Failure Modes</h2>
+<div class="yt-grid">
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/CS7qX-mqmCU?autoplay=1&mute=1&loop=1&playlist=CS7qX-mqmCU&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A1: Barnacle removal</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/1LmSPOH6E8M?autoplay=1&mute=1&loop=1&playlist=1LmSPOH6E8M&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A2: 3D-print removal</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/Q8ZMusDxpKA?autoplay=1&mute=1&loop=1&playlist=Q8ZMusDxpKA&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A3: Blu-Tack removal</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/uYGjkTL14Dc?autoplay=1&mute=1&loop=1&playlist=uYGjkTL14Dc&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A4: Wood-ear extraction</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/4x76NL8vx6c?autoplay=1&mute=1&loop=1&playlist=4x76NL8vx6c&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">A5: Self-cleaning</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/HmyMuYIvDY8?autoplay=1&mute=1&loop=1&playlist=HmyMuYIvDY8&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">B1: Plate wiping</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/3hOG-tO3Fro?autoplay=1&mute=1&loop=1&playlist=3hOG-tO3Fro&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">B2: Hand wiping</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/gzvAxljUWWE?autoplay=1&mute=1&loop=1&playlist=gzvAxljUWWE&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
+</div><div class="yt-label">C1: Sand excavation</div></div>
+
+<div class="yt-card"><div class="yt-wrap">
+<iframe src="https://www.youtube.com/embed/4EEzw4zFjFE?autoplay=1&mute=1&loop=1&playlist=4EEzw4zFjFE&controls=0&rel=0&modestbranding=1" allow="autoplay"></iframe>
 </div><div class="yt-label">C2: Cat litter removal</div></div>
 
 </div>
