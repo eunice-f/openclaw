@@ -15,9 +15,9 @@ body{
 }
 
 .container{
-  max-width:1400px;
+  max-width:900px;
   margin:auto;
-  padding:50px 30px;
+  padding:50px 20px;
 }
 
 h1{
@@ -125,23 +125,27 @@ pre{
   color:#888;
 }
 
-/* ---------- 3x3 YouTube grid ---------- */
+/* ---------- 2x4 YouTube grid ---------- */
 .yt-grid{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(2,1fr);
   gap:28px;
-  margin-bottom:35px;
+  max-width:900px;
+  margin:0 auto;
 }
-
 .yt-card{
   text-align:center;
 }
-
+.yt-card:last-child{
+  grid-column:1 / -1;
+  justify-self:center;
+  width:50%;
+}
 .yt-wrap{
   position:relative;
   width:100%;
   padding-bottom:56.25%; /* 16:9 */
-  border-radius:16px;
+  border-radius:12px;
   overflow:hidden;
   box-shadow:0 4px 18px rgba(0,0,0,.08);
   background:#000;
