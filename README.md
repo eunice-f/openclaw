@@ -182,7 +182,7 @@ pre{
 }
 
 .main-title img{
-  height:1.5em;
+  height:2.5em;
   transform:translateY(2px);
 }
 
